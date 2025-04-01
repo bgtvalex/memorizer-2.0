@@ -1,5 +1,5 @@
-import { getDB } from '../js/func/storage.js'
-import { addListeners } from '../js/func/add-listeners.js'
+import { getDB } from './../js/func/storage.js'
+import { addListeners } from './../js/func/add-listeners.js'
 
 export function renderCards(status = 'active') {
   let $cards = document.querySelector('.cards')
