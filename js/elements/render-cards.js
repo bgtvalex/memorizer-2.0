@@ -1,4 +1,4 @@
-import { getDB } from '/js/func/storage.js'
+import { getDB } from '../func/storage.js'
 import { addListeners } from '../func/add-listeners.js'
 
 export function renderCards(status = 'active') {
