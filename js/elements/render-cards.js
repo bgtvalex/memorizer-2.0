@@ -1,4 +1,4 @@
-import { getDB } from 'js/func/storage.js'
+import { getDB } from 'memorizer-2.0/js/func/storage.js'
 import { addListeners } from 'js/func/add-listeners.js'
 
 export function renderCards(status = 'active') {
