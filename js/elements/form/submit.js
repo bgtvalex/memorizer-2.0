@@ -1,8 +1,8 @@
-import { getDB, setDB } from "../../func/storage.js"
-import { getToday } from "../../func/func.js"
-import { replaceAllReturns } from '../../func/func.js'
-import { renderCards } from "../render-cards.js"
-import { closeModal } from "../modal/modal.js"
+import { getDB, setDB } from "js/func/storage.js"
+import { getToday } from "js/func/func.js"
+import { replaceAllReturns } from 'js/func/func.js'
+import { renderCards } from "js/render-cards.js"
+import { closeModal } from "js/modal/modal.js"
 
 export function handleSubmit(e, form) {
 	console.log('e', e)
